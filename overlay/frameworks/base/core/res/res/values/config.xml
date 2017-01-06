@@ -61,14 +61,17 @@
 
     <!-- Does the notification LED support multiple colors?
                   Used to decide if the user can change the colors -->
+<add-resource type="bool" name="config_multiColorNotificationLed"></add-resource>
     <bool name="config_multiColorNotificationLed">true</bool>
 
     <!-- Does the battery LED support multiple colors?
                   Used to decide if the user can change the colors -->
+<add-resource type="bool" name="config_multiColorBatteryLed"></add-resource>
     <bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
+<add-resource type="bool" name="config_ledCanPulse"></add-resource>
     <bool name="config_ledCanPulse">false</bool>
 
     <integer name="config_deviceHardwareKeys">64</integer>
